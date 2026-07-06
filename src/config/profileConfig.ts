@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
 	name: "LI14",
 
 	// 个人签名
-	bio: "Hello, I'm LI14.",
+	bio: "Hello, I'm LI14.测试",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons

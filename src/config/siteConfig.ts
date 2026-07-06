@@ -6,13 +6,13 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "测试",
+	title: "li14的个人博客",
 
 	// 站点副标题
-	subtitle: "D测试",
+	subtitle: "一个热爱技术和分享的博客，记录我的学习和成长之路。",
 
 	// 站点 URL
-	site_url: "https://41il.com",
+	site_url: "https://blog1.41il.com",
 
 	// 站点描述
 	description:

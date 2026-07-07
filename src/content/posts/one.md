@@ -1,7 +1,7 @@
 ---
-title: Firefly 代码块示例
-published: 2027-07-07
-pinned: false
+title: 这是我的第一篇blog
+published: 2026-07-07
+pinned: true
 description: Day-1 这是我的第一篇blog
 tags:
   - Markdown

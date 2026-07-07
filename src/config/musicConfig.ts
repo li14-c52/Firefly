@@ -60,18 +60,12 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				// cover: "/assets/music/cover/109951169585655912.webp",
 				// lrc: "",
 			// },
-			{
-				name: "U.N.オーエンは彼女なのか",
-				artist: "上海アリス幻樂団",
-				url: "assets/music/上海アリス幻樂団 - U.N.オーエンは彼女なのか？.flac",
-				cover: "/assets/music/cover/-2051608903.jpg",
-				lrc: "",
-			},
+
 			{
 				name: "幼女幻奏",
 				artist: "Sing, R. Sing!",
-				url: "assets/music/Sing, R. Sing! - 幼女幻奏.flac",
-				cover: "/assets/music/cover/-163458939.jpg",
+				url: "assets/music/Sing, R. Sing! - 幼女幻奏.mp3",
+				cover: "/assets/music/cover/163458939.webp",
 				lrc: "",
 			},
 		],

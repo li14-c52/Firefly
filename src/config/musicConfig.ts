@@ -11,7 +11,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	showInNavbar: true,
 
 	// 使用方式："meting" 使用 Meting API，"local" 使用本地音乐列表
-	mode: "meting",
+	mode: "local",
 
 	// 默认音量 (0-1)
 	volume: 0.7,
@@ -42,6 +42,10 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		],
 	},
 
+	// 本地音乐请放在 Firefly/public/assets/music 下，cover文件夹中为专辑封面图
+	// 从音乐网站下载的音乐(如网易云，QQ音乐)若是加密格式(.ncm之类)，可用这个网站解密：https://music-unlock.lehinet.com/
+	// 下载音质要为超清母带以下的音质，否则有几率转换后听不了
+
 	// 本地音乐配置（当 mode 为 'local' 时使用）
 	// 1. 支持传入歌词文件的路径
 	// lrc: "/assets/music/lrc/使一颗心免于哀伤-哼唱.lrc",
@@ -49,11 +53,25 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	// lrc: "[00:00.00]歌词内容...",
 	local: {
 		playlist: [
+			// {
+				// name: "使一颗心免于哀伤",
+				// artist: "知更鸟 / HOYO-MiX / Chevy",
+				// url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
+				// cover: "/assets/music/cover/109951169585655912.webp",
+				// lrc: "",
+			// },
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
-				cover: "/assets/music/cover/109951169585655912.webp",
+				name: "U.N.オーエンは彼女なのか",
+				artist: "上海アリス幻樂団",
+				url: "assets/music/上海アリス幻樂団 - U.N.オーエンは彼女なのか？.flac",
+				cover: "/assets/music/cover/-2051608903.jpg",
+				lrc: "",
+			},
+			{
+				name: "幼女幻奏",
+				artist: "Sing, R. Sing!",
+				url: "assets/music/Sing, R. Sing! - 幼女幻奏.flac",
+				cover: "/assets/music/cover/-163458939.jpg",
 				lrc: "",
 			},
 		],

@@ -44,7 +44,8 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 
 	// 本地音乐请放在 Firefly/public/assets/music 下，cover文件夹中为专辑封面图
 	// 从音乐网站下载的音乐(如网易云，QQ音乐)若是加密格式(.ncm之类)，可用这个网站解密：https://music-unlock.lehinet.com/
-	// 下载音质要为超清母带以下的音质，否则有几率转换后听不了
+	// 下载音质要为标准音质，否则转换后文件太大传不到库中
+	// 专辑封面图
 
 	// 本地音乐配置（当 mode 为 'local' 时使用）
 	// 1. 支持传入歌词文件的路径

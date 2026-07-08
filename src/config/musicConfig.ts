@@ -11,7 +11,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	showInNavbar: true,
 
 	// 使用方式："meting" 使用 Meting API，"local" 使用本地音乐列表
-	mode: "local",
+	mode: "meting",
 
 	// 默认音量 (0-1)
 	volume: 0.6,
@@ -31,8 +31,8 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		server: "netease",
 		// 类型：song=单曲, playlist=歌单, album=专辑, search=搜索, artist=艺术家
 		type: "playlist",
-		// 歌单/专辑/单曲 ID 或搜索关键词
-		id: "10046455237",
+		// 歌单/专辑/单曲 ID 或搜索关键词(歌单id查找方法: 点击目标歌单，点击分享按钮，点击复制链接，链接中id=后面的数字就是歌单id)
+		id: "3228878259",
 		// 认证 token（可选）
 		auth: "",
 		// 备用 API 配置（当主 API 失败时使用）
@@ -45,7 +45,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	// 本地音乐请放在 Firefly/public/assets/music 下，cover文件夹中为专辑封面图
 	// 从音乐网站下载的音乐(如网易云，QQ音乐)若是加密格式(.ncm之类)，可用这个网站解密：https://music-unlock.lehinet.com/
 	// 下载音质要为标准音质，否则转换后文件太大传不到库中
-	// 专辑封面图
+	// 专辑封面图需要为 webp 格式，大小不超过 200KB，否则会影响加载速度以及可能加载不出来
 
 	// 本地音乐配置（当 mode 为 'local' 时使用）
 	// 1. 支持传入歌词文件的路径
